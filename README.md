@@ -1,20 +1,16 @@
-# Insta Kitchen (Frontend Prototype)
+# Insta Kitchen — Flat Vite + React
 
-Vite + React + Tailwind prototype.
+This version is **flat at repo root** and uses a **relative import** (`./src/main.jsx`) to avoid the Rollup error you saw on Vercel.
+
+## Deploy on Vercel (Git)
+1) Push these files to your GitHub repo **at the root** (no extra folder).
+2) In Vercel → New Project → Import Repo.
+3) Confirm:
+   - Framework: Vite
+   - Build: `vite build`
+   - Output: `dist`
+4) Deploy.
 
 ## Local Dev
-```bash
 npm install
 npm run dev
-```
-
-## Build
-```bash
-npm run build
-npm run preview
-```
-
-## Deploy to Vercel
-- Install Vercel CLI: `npm i -g vercel`
-- Run: `vercel` then `vercel --prod`
-- Or connect the repo to Vercel dashboard and set Build Command: `vite build`, Output Dir: `dist`.

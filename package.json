@@ -1,8 +1,11 @@
 {
-  "name": "insta-kitchen-react",
-  "version": "0.1.0",
+  "name": "insta-kitchen",
+  "version": "1.0.2",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -15,6 +18,7 @@
   "devDependencies": {
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.10",
